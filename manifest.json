@@ -1,38 +1,24 @@
 {
   "windows": {
     "x64": {
-      "files": "https://example.com/downloads/1.0.0/windows/x64/update.zip",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "version": "1.0.0",
       "installer": "https://example.com/downloads/1.0.0/windows/x64/setup.exe"
     },
     "arm64": {
-      "files": "https://example.com/downloads/1.0.0/windows/arm64/update.zip",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "version": "1.0.0",
       "installer": "https://example.com/downloads/1.0.0/windows/arm64/setup.exe"
     }
   },
-  "macos": {
-    "x64": {
-      "files": "https://example.com/downloads/1.0.0/macos/x64/update.zip",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-      "installer": "https://example.com/downloads/1.0.0/macos/x64/installer.dmg"
-    },
-    "arm64": {
-      "files": "https://example.com/downloads/1.0.0/macos/arm64/update.zip",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-      "installer": "https://example.com/downloads/1.0.0/macos/arm64/installer.dmg"
-    }
+  "apple": {
+    "version": "1.0.0",
+    "installer": "https://example.com/downloads/1.0.0/apple/app.ipa"
   },
   "linux": {
-    "x64": {
-      "files": "https://example.com/downloads/1.0.0/linux/x64/update.tar.gz",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-      "installer": "https://example.com/downloads/1.0.0/linux/x64/installer.AppImage"
-    },
-    "arm64": {
-      "files": "https://example.com/downloads/1.0.0/linux/arm64/update.tar.gz",
-      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
-      "installer": "https://example.com/downloads/1.0.0/linux/arm64/installer.AppImage"
-    }
+    "version": "1.0.0",
+    "installer": "https://example.com/downloads/1.0.0/linux/app.flatpak"
+  },
+  "android": {
+    "version": "1.0.0",
+    "installer": "https://example.com/downloads/1.0.0/android/app.apk"
   }
 }
