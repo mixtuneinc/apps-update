@@ -15,7 +15,7 @@
   },
   "linux": {
     "version": "1.0.0",
-    "installer": "https://example.com/downloads/1.0.0/linux/app.flatpak"
+    "installer": "https://flathub.org/ru/apps/net.example.com"
   },
   "android": {
     "version": "1.0.0",
